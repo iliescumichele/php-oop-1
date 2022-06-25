@@ -11,4 +11,45 @@
 */
 
 
+
+
+//definisco la classe movie
+class movie{
+    
+    //dichiaro le variabili d'istanza
+    public $titolo;
+    public $anno;
+    public $genere;
+    public $durata;
+
+    //definisco un costruttore
+    function __construct($_titolo, $_anno, $_genere, $_durata){
+        $this->titolo = $_titolo;
+        $this->anno = $_anno;
+        $this->genere = $_genere;
+        $this->durata = $_durata;
+    }
+
+    //definisco un metodo
+    public function durationMovie(){
+        $hour = 0;
+        $minutes = $this->duarata;
+
+        $hour = $this->duarata / 60;
+        
+        if($hour > 0){
+            $minutes  = $this->duarata - ($hours * 60);
+            return $this->durata = $hour + ':'  + $minutes;
+        }
+        else{
+            return $this->durata;
+        }
+    }
+
+    public function printMovieName(){
+        return $this->titolo;
+    }    
+}
+
+
 ?>

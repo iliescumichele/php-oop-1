@@ -51,5 +51,10 @@ class movie{
     }    
 }
 
+//instanziate gli oggi Movie
+$ioSonoLeggenda = new Movie("Io sono Leggenda", 2007, "Horror", 101);
+$spiderman = new Movie("Spiderman", 2014, "Fantasy/Action", 142);
+
+
 
 ?>

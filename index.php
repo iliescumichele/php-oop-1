@@ -51,10 +51,12 @@ class movie{
     }    
 }
 
-//instanziate gli oggi Movie
+//istanziate gli oggi Movie
 $ioSonoLeggenda = new Movie("Io sono Leggenda", 2007, "Horror", 101);
 $spiderman = new Movie("Spiderman", 2014, "Fantasy/Action", 142);
 
-
+//stampo a video i valori degli oggetti
+echo "nome film: " . $ioSonoLeggenda->printMovieName() . "   Durata: " . $ioSonoLeggenda->durationMovie() . "\n";
+echo "nome film: " . $spiderman->printMovieName() . "   Durata: " . $spiderman->durationMovie() . "\n";
 
 ?>
